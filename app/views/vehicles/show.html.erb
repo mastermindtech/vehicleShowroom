@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @vehicle.name %>
+</p>
+
+<p>
+  <strong>Arrival date:</strong>
+  <%= @vehicle.arrival_date %>
+</p>
+
+<p>
+  <strong>Physically in showroom:</strong>
+  <%= @vehicle.physically_in_showroom %>
+</p>
+
+<p>
+  <strong>Showroom:</strong>
+  <%= @vehicle.showroom %>
+</p>
+
+<%= link_to 'Edit', edit_vehicle_path(@vehicle) %> |
+<%= link_to 'Back', vehicles_path %>

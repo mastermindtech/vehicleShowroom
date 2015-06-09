@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  name: Audi TT
+  arrival_date: 2015-06-09
+  physically_in_showroom: false
+  showroom_id: 1
+
+two:
+  id: 2
+  name: Mazda RSX
+  arrival_date: 2015-06-09
+  physically_in_showroom: true
+  showroom_id: 1
